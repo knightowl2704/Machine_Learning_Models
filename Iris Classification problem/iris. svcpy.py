@@ -38,5 +38,5 @@ confusion = metrics.confusion_matrix(y_test.flatten(),y_pred.flatten())
 
 print(confusion)
 
-plt.scatter(y_pred, classifier.predict(X_test))
+plt.scatter(y_test, classifier.predict(X_test))
 plt.show()
