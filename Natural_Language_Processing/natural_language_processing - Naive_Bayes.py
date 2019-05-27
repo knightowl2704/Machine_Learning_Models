@@ -46,4 +46,10 @@ y_pred = classifier.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
-accuracy = (cm[0][0]+cm[1][1])/200
+total = 0
+for i in range(0,2):
+	for j in range(0,2):
+		total = total + cm[i][j]
+
+accuracy = (cm[0][0]+cm[1][1])/total
+print(accuracy)
