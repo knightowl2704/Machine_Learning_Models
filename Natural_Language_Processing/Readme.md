@@ -5,7 +5,7 @@ Accuracy obtained is as follows:
 
 | Model        | Accuracy |
 | ------------- |:---------:|
-| Naive Bayes    | 0.525 |
-| Random Forest      | 0.525      |
+| Naive Bayes    | 0.73 |
+| Random Forest      | 0.71      |
 | SVC | 0.485      |
-| KNN | 0.485      |
+| KNN | 0.525      |
